@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Poppins:wght@200;400;500;700&display=swap");
+
+/* VARIAVEIS */
+:root {
+  --background: #ffffff;
+  --font-family: 'Inter', sans-serif;
+  --cor-cinza-escuro: rgba(58, 64, 78, 1);
+  --cor-cinza-claro: rgba(102, 112, 133, 1);
+  --cor-botao-vermelho: rgba(142, 36, 36, 1);
+  --cor-black: rgba(16, 24, 40, 1);
+  --bg-depoimentos: rgba(195, 25, 25, 0.03);
+  --bordas-cinza: rgba(234, 236, 240, 1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}

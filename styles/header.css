@@ -1,0 +1,117 @@
+.container_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.container_navbar {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor-cinza-claro);
+    padding: 0, 32px, 0px, 32px;
+}
+
+.imagem_logo {
+    height: 27px;
+    width: 26.99px;
+}
+
+.btn-menu-drop {
+    margin-left: 119px;
+}
+
+.btn:hover {
+    color: var(--cor-botao-vermelho);
+}
+
+.btn-drop {
+    margin-left: 32px;
+    border: 1px solid var(--background);
+    color: var(--cor-cinza-claro);
+    text-decoration: none;
+}
+
+.btn-drop:hover {
+    color: var(--cor-botao-vermelho);
+}
+
+.btn-logo {
+    margin-left: 8px;
+    border: 1px solid var(--background);
+    color: var(--cor-botao-vermelho);
+    text-decoration: none;
+}
+
+.btn-menu {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor-cinza-claro);
+    margin-right: 12px;
+    transition: all 0.5s;
+}
+
+.btn-menu:hover {
+    color: var(--cor-botao-vermelho);
+    transform: scale(1.05);
+}
+
+.btn-menu-cadastrar {
+    background-color: var(--cor-botao-vermelho);
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 44px;
+    width: 112px;
+    margin-right: 112px;
+    border: 2px solid var(--cor-botao-vermelho);
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.btn-menu-cadastrar:hover {
+    color: var(--cor-botao-vermelho);
+    background-color: var(--background);
+}
+
+.container-header {
+    padding: 26.5px;
+    margin-left: 112px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* CABECALHO-MOBILE PARA TABLET E SMARTPHONE */
+@media (max-width: 1240px) {
+
+    .imagem_logo {
+        width: 40px;
+        height: 40px;
+        margin-left: -3em;
+    }
+
+    .btn-logo {
+        font-size: 22px;
+        color: var(--cor-botao-vermelho);
+        width: 1%;
+    }
+
+    .btn-menu-drop {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .btn-drop {
+        color: var(--cor-botao-vermelho);
+        font-size: 24px;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+}
